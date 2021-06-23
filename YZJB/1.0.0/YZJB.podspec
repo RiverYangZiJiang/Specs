@@ -19,9 +19,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "YZJA"
-  s.version      = "1.0.1"
-  s.summary      = "YZJA."
+  s.name         = "YZJB"
+  s.version      = "1.0.0"
+  s.summary      = "YZJB."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,10 +29,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    this is YZJA
+                    this is YZJB
                    DESC
 
-  s.homepage     = "https://github.com/YZJMediator/YZJA"
+  s.homepage     = "https://github.com/YZJMediator/YZJB"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -84,7 +84,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/YZJMediator/YZJA.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/YZJMediator/YZJB.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -95,7 +95,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "YZJA/Source/**/*.{h,m}", "YZJA/Category/*.{h,m}"
+  
+  s.source_files  = "YZJB/Source/**/*.{h,m}", "YZJB/Category/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
